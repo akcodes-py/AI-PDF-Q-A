@@ -70,3 +70,5 @@ The Gemini system instruction was iteratively designed to ensure strict adherenc
 - **Single User/Document**: The current implementation holds state globally in the backend, meaning only one PDF can be active at a time for all users. Uploading a new PDF will overwrite the previous one.
 - **No Authentication**: There is no user login or API key protection on the endpoints.
 - **Basic Similarity Search**: It uses a simple O(N) numpy cosine similarity scan instead of a dedicated, optimized vector database (like Pinecone or ChromaDB).
+
+<!-- Added for profile activity update -->
